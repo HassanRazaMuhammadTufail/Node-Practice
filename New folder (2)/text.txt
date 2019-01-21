@@ -1,0 +1,19 @@
+TASK 1
+create the server
+create index.html
+create 404.html
+Handle request so that:
+    a)if pathname is '/' \, respond with index.html
+    b)other wise send 404.html as the response
+
+
+
+    TASK 2
+    create the server
+    create index.html or create a whole react project
+    create an html form with two fields: username and password
+    as the user submits the form:
+        a)on frontend, send the request at route '/' to the server with username & password as its query
+        b)on backend, append username & password in users.json (You will have to use JSOn.Strigify and JSON.parse for that)
+
+    At route '/users', user should get users.json
